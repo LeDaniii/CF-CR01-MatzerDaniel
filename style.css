@@ -6,10 +6,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* float clear */
 .clear {
   clear: both;
 }
 
+/* fontsze to 10px for easier calculation */
 html {
   font-size: 62.5%;
 }
@@ -18,8 +20,8 @@ a {
   text-decoration: none;
 }
 
-/* ----- header ------ */
-
+/* ----- header start ------ */
+/* ----- header above Navbar */
 .head {
   background: #cabbb7;
 }
@@ -33,11 +35,11 @@ a {
   font-size: 3rem;
   float: left;
   padding: 6% 0 0 15%;
-  display: inline-block;
   width: 60%;
+  font-weight: 500;
 }
 
-/* ------ navbar ------ */
+/* ------ Navbar ------ */
 
 nav {
   background: #c65252;
@@ -55,12 +57,84 @@ nav li {
 
 nav a {
   color: #cabbb7;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 3rem;
   display: inline-block;
   padding: 1rem;
 }
 
+/* .contact = list item on right postion */
 .contact {
   margin-right: 8rem;
+}
+/* ----- header end ------ */
+/* ----- Main Content Section start ----- */
+
+.main p {
+  font-size: 8rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 6vh 0 9vh 0;
+}
+
+.main h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+/* Phone img cropped */
+
+.phone-wrap {
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.phone-wrap img {
+  transform: translateY(-200px);
+}
+
+/* debit-card and scooter container */
+
+.row-container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 1080px;
+}
+
+.content-float {
+  text-align: center;
+  display: inline-block;
+  width: 47%;
+}
+
+#scooter-img {
+  float: right;
+}
+
+#card-img {
+  float: left;
+}
+/* ----- Main Content Section end ----- */
+/* ----- footer start ----- */
+footer {
+  background: #cabbb7;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer img {
+  padding: 2rem 0 2.5rem 0;
+}
+
+footer p {
+  padding-bottom: 4rem;
+}
+
+footer a {
+  color: black;
 }
