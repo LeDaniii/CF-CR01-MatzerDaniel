@@ -1,0 +1,88 @@
+/* ----- Global Navbar ----- */
+
+.nav-global {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-global > h1 {
+  color: white;
+  padding: 1rem 1rem 1rem 5rem;
+  font-size: 3rem;
+}
+
+.navlinks {
+  display: flex;
+}
+.nav-global a {
+  font-size: 1.5rem;
+  padding: 0 2rem 0 2rem;
+  justify-content: center;
+  color: white;
+}
+header {
+  background: #29b6f6;
+}
+/* ----- background ----- */
+
+body {
+  background: lightgray;
+}
+
+/* ----- Contact me card ------ */
+.contact-container {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-container > h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(45deg, #29b6f6, transparent);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  width: 50%;
+  position: relative;
+  height: 8rem;
+}
+
+form input {
+  font-size: 3rem;
+  width: 100%;
+  height: 100%;
+  color: #29b6f6;
+  padding-top: 3rem;
+  border: none;
+  background: lightgray;
+}
+
+form label {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+button {
+  width: 50%;
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  background: #29b6f6;
+  border: none;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 3rem;
+  cursor: pointer;
+}

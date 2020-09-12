@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 /* float clear */
@@ -11,7 +13,7 @@
   clear: both;
 }
 
-/* fontsze to 10px for easier calculation */
+/* fontsize to 10px for easier calculation */
 html {
   font-size: 62.5%;
 }
